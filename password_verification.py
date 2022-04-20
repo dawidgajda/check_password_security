@@ -88,7 +88,6 @@ class PasswordVerification:
         self.check_values.append(self.check_is_upper_letter())
         self.check_values.append(self.check_is_lower_letter())
         self.check_values.append(self.check_is_special_char())
-        print(self.check_values)
 
         if all(self.check_values):
             return True
